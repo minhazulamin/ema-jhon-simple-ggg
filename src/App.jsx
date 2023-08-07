@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './component/Header/Header'
 import Shop from './component/shop/Shop'
+import Cart from './component/Cart/Cart'
 
 function App() {
     
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Header></Header>
       <Shop></Shop>
+     
      </div>
   )
 }
